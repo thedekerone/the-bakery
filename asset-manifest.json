@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/the-bakery/static/css/main.eb43d099.chunk.css",
-    "main.js": "/the-bakery/static/js/main.7aee8eea.chunk.js",
-    "main.js.map": "/the-bakery/static/js/main.7aee8eea.chunk.js.map",
-    "runtime~main.js": "/the-bakery/static/js/runtime~main.4b2ecba9.js",
-    "runtime~main.js.map": "/the-bakery/static/js/runtime~main.4b2ecba9.js.map",
-    "static/js/2.f7c17a78.chunk.js": "/the-bakery/static/js/2.f7c17a78.chunk.js",
-    "static/js/2.f7c17a78.chunk.js.map": "/the-bakery/static/js/2.f7c17a78.chunk.js.map",
-    "index.html": "/the-bakery/index.html",
-    "precache-manifest.fbb14e3da0b6464e8ba6a855c49a1f83.js": "/the-bakery/precache-manifest.fbb14e3da0b6464e8ba6a855c49a1f83.js",
-    "service-worker.js": "/the-bakery/service-worker.js",
-    "static/css/main.eb43d099.chunk.css.map": "/the-bakery/static/css/main.eb43d099.chunk.css.map",
-    "static/media/App.css": "/the-bakery/static/media/cakes2.a57e022e.jpg"
+    "main.css": "/thedekerone/the-bakery/static/css/main.54eb5438.chunk.css",
+    "main.js": "/thedekerone/the-bakery/static/js/main.d3fea208.chunk.js",
+    "main.js.map": "/thedekerone/the-bakery/static/js/main.d3fea208.chunk.js.map",
+    "runtime~main.js": "/thedekerone/the-bakery/static/js/runtime~main.74fe8119.js",
+    "runtime~main.js.map": "/thedekerone/the-bakery/static/js/runtime~main.74fe8119.js.map",
+    "static/js/2.f7c17a78.chunk.js": "/thedekerone/the-bakery/static/js/2.f7c17a78.chunk.js",
+    "static/js/2.f7c17a78.chunk.js.map": "/thedekerone/the-bakery/static/js/2.f7c17a78.chunk.js.map",
+    "index.html": "/thedekerone/the-bakery/index.html",
+    "precache-manifest.ece937c857d800580f04387df7658d36.js": "/thedekerone/the-bakery/precache-manifest.ece937c857d800580f04387df7658d36.js",
+    "service-worker.js": "/thedekerone/the-bakery/service-worker.js",
+    "static/css/main.54eb5438.chunk.css.map": "/thedekerone/the-bakery/static/css/main.54eb5438.chunk.css.map",
+    "static/media/App.css": "/thedekerone/the-bakery/static/media/cakes2.a57e022e.jpg"
   }
 }
