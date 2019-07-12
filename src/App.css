@@ -1,33 +1,187 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    list-style: none;
   }
-  to {
-    transform: rotate(360deg);
+  html{
+    font-size: 16px;
   }
-}
+  body{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /*
+  some variables
+  */
+  .c-white{
+    color: white!important
+  }
+  .c-black{
+    color: black!important
+  }
+  .c-orange{
+    color:#FF6D5D!important
+  }
+
+
+  main{
+    display: grid;
+  
+    
+    grid-template-columns: auto;
+  }
+
+
+
+  .btn{
+    background: white;
+    width: 8em;
+    text-align: center;
+    font-weight: bold;
+    padding: .5em 1.2em;
+    border-radius: 5rem;
+    font-size: .85rem
+  }
+  .cake{
+    background: url('./imgs/cakes2.jpg');
+    height: 23.5em;
+    background-size: cover;
+  }
+  .cake p{
+    max-width: 250px;
+    margin-top: 0
+  }
+  .cake h1{
+    font-size: 1.8em;
+  }
+  .cake .btn{
+    background: rgba(143, 233, 194,1);
+  }
+  .cake .wrapper{
+    margin-top: 2em;
+  }
+  .featured{
+    height: 15em;
+    background: #82BFFC;
+  }
+  .contact h1{
+    color: black;
+  }
+  .contact input{
+    margin: 1em 0;
+    padding: .5em ;
+    width: 95%;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .contact .btn{
+    background: black;
+    width: 100%;
+    box-sizing: border-box
+  }
+
+
+  /* RESPONSIVE*/
+  @media only screen and (min-width:980px){
+    html{
+      font-size: 20px
+    }
+    header{
+      position: absolute;
+      box-sizing: border-box;
+      z-index: 20;
+      background: none;
+      display: grid;
+      padding: .8em 0 .8em .8em;
+      grid-template-columns: 70% 1fr;
+      width: 100%;
+    }
+    header h1, header li a{
+      color:white
+    }
+    header nav{
+      width: 100%;
+    }
+    main{
+      height: 100vh;
+      grid-template-columns: 70% auto;
+      grid-template-rows: 65% auto;
+      grid-template-areas: 
+      'cake featured'
+      'cake contact'
+    }
+    section{
+      grid-template-columns: auto;
+      display: grid;
+      align-items: center;
+      padding-left:2em;
+
+    }
+    .cake{
+      grid-area: cake;
+      height: auto;
+    }
+  
+    .cake p{
+      font-size: 1.4em;
+      max-width: none;
+      
+    }
+    .cake h1{
+      font-size: 3.5em;
+    }
+    .cake .wrapper{
+      margin-left:2em; 
+    }
+    .wrapper{
+
+      display: grid;
+    align-items: center;
+    grid-template-columns: auto
+    }
+    .featured{
+      height: auto;
+      grid-area:featured;
+    }
+    .contact{
+      height: auto;
+      grid-area:contact
+    }
+    .featured p, .contact p{
+      width: 100%
+    } 
+    
+  /*    Animation    */
+
+  .cake .btn:hover{
+    background: rgb(139, 223, 186);
+  }
+  .featured .btn:hover{
+    background: rgb(238, 238, 238);
+  }
+  .contact .btn:hover{
+    background: rgb(17, 17, 17)
+  }
+    li a:hover{
+      color: rgb(228, 228, 228);
+     
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
