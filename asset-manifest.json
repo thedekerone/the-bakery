@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/the-bakery/static/css/main.eb43d099.chunk.css",
+    "main.js": "/the-bakery/static/js/main.7aee8eea.chunk.js",
+    "main.js.map": "/the-bakery/static/js/main.7aee8eea.chunk.js.map",
+    "runtime~main.js": "/the-bakery/static/js/runtime~main.4b2ecba9.js",
+    "runtime~main.js.map": "/the-bakery/static/js/runtime~main.4b2ecba9.js.map",
+    "static/js/2.f7c17a78.chunk.js": "/the-bakery/static/js/2.f7c17a78.chunk.js",
+    "static/js/2.f7c17a78.chunk.js.map": "/the-bakery/static/js/2.f7c17a78.chunk.js.map",
+    "index.html": "/the-bakery/index.html",
+    "precache-manifest.fbb14e3da0b6464e8ba6a855c49a1f83.js": "/the-bakery/precache-manifest.fbb14e3da0b6464e8ba6a855c49a1f83.js",
+    "service-worker.js": "/the-bakery/service-worker.js",
+    "static/css/main.eb43d099.chunk.css.map": "/the-bakery/static/css/main.eb43d099.chunk.css.map",
+    "static/media/App.css": "/the-bakery/static/media/cakes2.a57e022e.jpg"
+  }
+}
