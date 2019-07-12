@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49c735faa6f372c32b7150f17212a32a",
+    "revision": "b8c02f843afb623a6013f258e1097801",
     "url": "/the-bakery/index.html"
   },
   {
-    "revision": "20caea3afeb813a6ca15",
-    "url": "/the-bakery/static/css/main.eb43d099.chunk.css"
+    "revision": "26d8235d7e3f213b9d06",
+    "url": "/the-bakery/static/css/main.84efea26.chunk.css"
   },
   {
     "revision": "97a889896c584d3fe1bc",
     "url": "/the-bakery/static/js/2.f7c17a78.chunk.js"
   },
   {
-    "revision": "20caea3afeb813a6ca15",
+    "revision": "26d8235d7e3f213b9d06",
     "url": "/the-bakery/static/js/main.7aee8eea.chunk.js"
   },
   {
