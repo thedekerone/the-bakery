@@ -2,7 +2,7 @@
   "name": "the-bakery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/thedekerone/the-bakery",
+  "homepage": "https://thedekerone.github.io/the-bakery/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
