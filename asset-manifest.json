@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/the-bakery/static/css/main.f9149cfc.chunk.css",
+    "main.css": "/the-bakery/static/css/main.47c2b419.chunk.css",
     "main.js": "/the-bakery/static/js/main.7aee8eea.chunk.js",
     "main.js.map": "/the-bakery/static/js/main.7aee8eea.chunk.js.map",
     "runtime~main.js": "/the-bakery/static/js/runtime~main.4b2ecba9.js",
@@ -8,9 +8,9 @@
     "static/js/2.f7c17a78.chunk.js": "/the-bakery/static/js/2.f7c17a78.chunk.js",
     "static/js/2.f7c17a78.chunk.js.map": "/the-bakery/static/js/2.f7c17a78.chunk.js.map",
     "index.html": "/the-bakery/index.html",
-    "precache-manifest.e9cd635fc4f1fb53e7e4c9b24838d297.js": "/the-bakery/precache-manifest.e9cd635fc4f1fb53e7e4c9b24838d297.js",
+    "precache-manifest.0dc98e091a026b0481a34cb64b101bc8.js": "/the-bakery/precache-manifest.0dc98e091a026b0481a34cb64b101bc8.js",
     "service-worker.js": "/the-bakery/service-worker.js",
-    "static/css/main.f9149cfc.chunk.css.map": "/the-bakery/static/css/main.f9149cfc.chunk.css.map",
+    "static/css/main.47c2b419.chunk.css.map": "/the-bakery/static/css/main.47c2b419.chunk.css.map",
     "static/media/App.css": "/the-bakery/static/media/cakes2.a57e022e.jpg"
   }
 }
