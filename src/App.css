@@ -60,8 +60,8 @@
   .cake .btn{
     background: rgba(143, 233, 194,1);
   }
-  .cake .wrapper{
-    margin-top: 2em;
+   .wrapper{
+    box-sizing: border-box
   }
   .featured{
     height: 15em;
@@ -71,7 +71,7 @@
     color: black;
   }
   .contact input{
-    margin: 1em 0;
+    margin: .3em 0;
     padding: .5em ;
     width: 95%;
     font-family: 'Montserrat', sans-serif;

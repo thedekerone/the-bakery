@@ -1,7 +1,9 @@
 section{
     overflow: hidden;
-
-    width: calc(100%-1.8em);
+    grid-template-columns: auto;
+    display: grid;
+    align-items: center;
+    width: 100%;
     box-sizing: border-box;
     padding: 1em;
 }
@@ -12,8 +14,11 @@ section p{
   }
 section h1, section p{
     color: white;
-    margin: .7rem 0 ;
+    margin: 0 0 .7rem 0 ;
+}
+section h1{
+    margin: .1em 0
 }
 section .btn{
-    margin: .5rem 0;
+    margin: 0;
 }
