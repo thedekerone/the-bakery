@@ -9,11 +9,11 @@ import {useSpring, animated, config} from 'react-spring'
   const fade=useSpring({opacity: props.toggle?1:0})
   return (
     
-    <animated.section style={fade} className={props.className}>
-      {/* <animated.div style={slide}> */}
+    <section >
+
         {props.children}
-        {/* </animated.div> */}
-    </animated.section>
+
+    </section>
     
   )
 }
