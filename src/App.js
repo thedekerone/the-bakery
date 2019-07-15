@@ -5,25 +5,14 @@ import {useSpring, animated} from 'react-spring'
 
 import './App.css'
 
-class App extends React.Component {
-  constructor(){
-    super()
-    this.state={
-      toggle:false,
-
-    }
-  }
-  fade=useSpring({opacity: this.toggle?1:0})
-  componentDidMount(){
-    this.setState({...this.state,toggle:true})
-  }
-  render(){
+const App =()=> {
+  const fade = useSpring({opacity: 1, from: {opacity: 0}})
   return (
     <div className="App">
         
-        <Navbar/>
+        <Navbar/> 
         
-        <animated.main  style={this.fade}>  
+        <animated.main style={fade} >  
           <Section className='cake'>
             <div className='wrapper'>
               <h1 className='c-white'>FRESH EVERY DAY</h1>
@@ -54,7 +43,7 @@ class App extends React.Component {
         </animated.main>
     </div>
   );
-}
+
 
 }
 
