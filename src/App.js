@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Section from './components/Section'
-import {useSpring, animated, config} from 'react-spring'
+import {useSpring, animated} from 'react-spring'
 
 import './App.css'
 
@@ -13,7 +13,7 @@ class App extends React.Component {
 
     }
   }
-  fade=useSpring({opacity: props.toggle?1:0})
+  fade=useSpring({opacity: this.toggle?1:0})
   componentDidMount(){
     this.setState({...this.state,toggle:true})
   }
